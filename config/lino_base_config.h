@@ -75,9 +75,9 @@ ROBOT ORIENTATION
 #define MOTOR4_ENCODER_INV false 
 
 // INVERT MOTOR DIRECTIONS
-#define MOTOR1_INV false
+#define MOTOR1_INV true
 #define MOTOR2_INV false
-#define MOTOR3_INV false
+#define MOTOR3_INV true
 #define MOTOR4_INV false
 
 // ENCODER PINS
@@ -91,7 +91,7 @@ ROBOT ORIENTATION
 #define MOTOR3_ENCODER_B 16 
 
 #define MOTOR4_ENCODER_A 9
-#define MOTOR4_ENCODER_B 10
+#define MOTOR4_ENCODER_B 10 
 
 // MOTOR PINS
 #ifdef USE_GENERIC_2_IN_MOTOR_DRIVER
